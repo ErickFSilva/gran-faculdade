@@ -1,0 +1,93 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+a {
+    text-decoration: none;
+    color: #365555;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+/* CONFIGURAÇÕES DA AULA */
+#container {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    
+    #container {
+        margin: 0 auto;
+        width: 768px;
+    }
+
+}
+
+.logo-corpo {
+    margin: auto;
+    width: 180px;
+}
+
+.destaque2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+h1, h2 {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.1em;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+p {
+    text-align: justify;
+}
+
+.destaque {
+    padding: 10px 15px;
+    color: #fafafa;
+    background-color: brown;
+}
+
+nav {
+    background-color: #061d3a;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 8px 10px;
+    color: #fafafa;
+    display: block;
+}
+
+nav li a:hover {
+    color: #365555;
+}
+
+footer p {
+    text-align: center;
+}
