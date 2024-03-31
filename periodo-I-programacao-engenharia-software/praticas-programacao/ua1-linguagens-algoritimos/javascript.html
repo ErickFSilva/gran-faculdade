@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práticas de Programação</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <img src="../imagens/html-html5.webp" alt="html-html5" class="logo-topo">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">HTML5</a></li>
+                    <li><a href="index.html">CSS3</a></li>
+                    <li><a href="index.html">Lógica de programação</a></li>
+                    <li><a href="javascript.html">Javascript</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="destaque">Práticas de Programação</h1>
+
+            <img src="../imagens/logo-html5-css3-js.webp" alt="logo-html5-css3-js" class="logo-corpo">
+
+            <p class="destaque2">
+                - Variáveis, Comandos de Entrada, Saída e Operadores
+            </p>
+
+            <!-- Abre bloco-js -->
+            <div id="bloco-js">
+
+                <form action="#">
+
+                    <div class="bloco-cont">
+                        <label>
+                            N1: <input type="number" id="n1" value="0">
+                        </label>
+
+                        <label>
+                            N2: <input type="number" id="n2" value="0">
+                        </label>
+
+                        <label>
+                            <input type="button" value="Somar" onclick="somar()">
+                            <input type="button" value="Subtrair" onclick="subtrair()">
+                            <input type="button" value="Multiplicar" onclick="multiplicar()">
+                            <input type="button" value="Dividir" onclick="dividir()">
+                            <input type="reset" value="Limpar" onclick="limpar()">
+                        </label>
+                    </div>
+
+                    <div id="resultado" class="bloco-cont">0</div>
+
+                </form>
+
+                <div class="clear"></div>
+
+            </div>
+            <!-- Fecha bloco-js -->
+        </main>
+
+        <footer>
+            <p>
+                Todos os direitos reservados
+            </p>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

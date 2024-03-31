@@ -85,9 +85,52 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #365555;
+    color: #64bdbd;
+}
+
+#bloco-js {
+    padding: 20px;
+    border: 1px solid #365555;
+}
+
+#bloco-js label:not(label:last-child) {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#bloco-js label input[type="number"] {
+    width: 80px;
+}
+
+#bloco-js label input[type="reset"] {
+    padding: 3px 7px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 3px;
+    color: #fafafa;
+    background-color: rgb(128, 50, 26);
+}
+
+#bloco-js label input[type="reset"]:hover {
+    border: 1px solid rgb(92, 92, 92);
+}
+
+#bloco-js .bloco-cont {
+    padding: 10px;
+    float: left;
+    width: 42%;
+    /* height: 100px; */
+}
+
+#bloco-js .bloco-cont:last-child {
+    margin-left: 20px;
+    line-height: 100px;
+    border: 1px solid slategrey;
+    text-align: center;
+    font-size: 32px;
 }
 
 footer p {
     text-align: center;
 }
+
+.clear { clear: both; }
