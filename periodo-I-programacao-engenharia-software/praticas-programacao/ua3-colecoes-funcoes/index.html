@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleções e Funções</title>
+    <link rel="stylesheet" href="estilos-funcoes.css">
 </head>
+
 <body>
 
+    <header>
+        <h1>Funções em JS</h1>
+    </header>
+
+    <main>
+
+        <form action="">
+            <div>
+                <label for="n1">N1</label>
+                <input type="text" name="n1" id="n1">
+            </div>
+            <div>
+                <label for="n2">N2</label>
+                <input type="text" name="n2" id="n2">
+            </div>
+            <div>
+                <input type="button" value="Somar" onclick="calcular('+')">
+                <input type="button" value="Subtrair" onclick="calcular('-')">
+                <input type="button" value="Multiplicar" onclick="calcular('*')">
+                <input type="button" value="Dividir" onclick="calcular('/')">
+                <input type="button" value="Módulo" onclick="calcular('%')">
+                <input type="reset" value="Limpar" onclick="limpar()">
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <header>
+            <h2>Resultado</h2>
+        </header>
+
+        <p>A soma dos números é <span id="resultado">0</span></p>
+    </footer>
+
     <!-- JS -->
-    <script src="script-array-objetos.js"></script>
-    
+    <script src="script-funcoes.js"></script>
+
 </body>
+
 </html>
