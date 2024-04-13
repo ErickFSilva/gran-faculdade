@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="iniciar()">
+
+    <main>
+        <div id="board"></div>
+
+        <div>
+            <label for="linha">Linha:</label>
+            <input type="number" min="1" max="3" id="linha">
+        </div>
+
+        <div>
+            <label for="coluna">Coluna:</label>
+            <input type="number" min="1" max="3" id="coluna">
+        </div>
+
+        <div>
+            <button type="button" onclick="jogar()">Marcar</button>
+        </div>
+
+        <div id="aviso">Vez do jogador: 1</div>
+    </main>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

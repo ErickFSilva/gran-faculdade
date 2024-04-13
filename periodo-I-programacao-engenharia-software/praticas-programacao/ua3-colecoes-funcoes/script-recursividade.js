@@ -10,4 +10,4 @@ function fatorial(x) {
     
 }
 
-console.log(fatorial(10));
+console.log(fatorial(5));
