@@ -2,13 +2,15 @@ header:not(article header), article {
     margin: 30px 0;
     padding: 30px 0;
     text-align: center;
-    background-color: rgb(120, 188, 219);
+    color: #fafafa;
+    background-color: rgb(54, 76, 87);
 }
 
 footer {
     margin: 30px 0;
     padding: 30px 0;
     text-align: center;
+    font-size: 1.2em;
     color: #fafafa;
-    background-color: darkslategray;
+    background-color: rgb(50, 66, 66);
 }
